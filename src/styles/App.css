@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  width: 800px;
+}
+
+.post {
+  display: flex;
+  padding: 15x;
+  border: 2px solid purple;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background: lightgrey;
+}
+
+.navbar__links {
+  margin-left: auto;
+}
+
+.pages__wrapper {
+  margin-top: 30px;
+  display: flex;
+}
+
+.page {
+  padding: 10px;
+  border: 1px solid purple;
+  cursor: pointer;
+}
+
+.page__current {
+  border: 2px solid black;
+  font-weight: bold;
+}
