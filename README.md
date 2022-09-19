@@ -1,1 +1,2 @@
-В терминал прописать "npm install". В терминал прописать "npm start"
+$ npm install
+$ npm start
