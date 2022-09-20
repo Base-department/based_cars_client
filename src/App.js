@@ -1,3 +1,5 @@
+//Главный файл, здесь запускается меню и компонент для перемещения между страницами
+
 import React, { useEffect, useState } from "react";
 import "./styles/App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";

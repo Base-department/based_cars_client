@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import PostIdPage from "../pages/PostIdPage";
 import Posts from "../pages/Posts";
 
+//Компонент для перемещения между страницами
+
 const AppRouter = () => {
   return (
     <Routes>

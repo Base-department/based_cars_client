@@ -1,6 +1,8 @@
 import React from "react";
 import PostItem from "./PostItem";
 
+//Компонент список всех карточек автомобилей на главной странице
+
 const PostList = ({ posts, title }) => {
   return (
     <div>

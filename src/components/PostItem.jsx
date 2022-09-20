@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+//Компонент карточка конкретного автомобиля на главной странице
+
 const PostItem = (props) => {
   const router = useNavigate();
   return (

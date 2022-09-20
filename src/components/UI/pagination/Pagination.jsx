@@ -1,6 +1,8 @@
 import React from "react";
 import { getPagesArray } from "../../../utils/pages";
 
+//Компонент панель для переключения между страницами
+
 const Pagination = ({ totalPages, page, changePage }) => {
   let pagesArray = getPagesArray(totalPages);
   return (
